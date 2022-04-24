@@ -23,7 +23,7 @@ class GameSprite(sprite.Sprite):
         self.rect.y = player_y
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
-
+dfdfdfdf
 class Hero(GameSprite):
     def update(self):
         keys = key.get_pressed()
